@@ -48,19 +48,21 @@ body,
 html {
     width: 100%;
 	height: 100%;
+	
 }
 
 body, p {
-	color: #626262; 
-	font: 500 0.875rem/1.375rem "Raleway", sans-serif;
+	color: #000000; 
+	font: 400 0.875rem/1.375rem "montserrat", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "Raleway", sans-serif;
+	font: 400 1rem/1.5rem "montserrat", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+	font: 400 0.75rem/1.25rem "montserrat", sans-serif;
+
 }
 
 .p-heading {
@@ -76,38 +78,37 @@ body, p {
 }
 
 h1 {
-	color: #393939;
-	font: 5
-	00 3rem/3.5rem "Raleway", sans-serif;
+	color: #000000;
+	font: 400  "Montserrat", sans-serif;
 }
 
 h2 {
-	color: #393939;
-	font: 700 2.25rem/2.75rem "Raleway", sans-serif;
+	color: #000000;
+	font: 400 2.25rem/2.75rem "Montserrat", sans-serif;
 }
 
 h3 {
-	color: #393939;
-	font: 700 1.75rem/2rem "Raleway", sans-serif;
+	color: #000000;
+	font: 400 1.75rem/2rem "Montserrat", sans-serif;
 }
 
 h4 {
-	color: #393939;
-	font: 700 1.375rem/1.875rem "Raleway", sans-serif;
+	color: #000000;
+	font: 500 1.375rem/1.875rem "Montserrat", sans-serif;
 }
 
 h5 {
-	color: #393939;
-	font: 700 1.325rem/1.825rem "Raleway", sans-serif;
+	color: #000000;
+	font: 400 1.325rem/1.825rem "Montserrat", sans-serif;
 }
 
 h6 {
-	color: #393939;
-	font: 700 1rem/1.5rem "Raleway", sans-serif;
+	color: #000000;
+	font: 400 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 a {
-	color: #626262;
+	color: #000000;
 	text-decoration: underline;
 }
 
@@ -117,7 +118,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #00bfd8;
+	color: #A74600;
 }
 
 a.white {
@@ -125,67 +126,67 @@ a.white {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.5rem "Raleway", sans-serif;
+	font: italic 400 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 .testimonial-author {
-	font: 700 1rem/1.5rem "Raleway", sans-serif;
+	font: 600 1rem/1.5rem "Montserrat", sans-serif;
 }
 
 .turquoise {
-	color: #00bfd8;
+	color: #A74600;
 }
 
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #A74600;
 	border-radius: 2rem;
-	background-color: #00bfd8;
-	color: #fff;
-	font: 700 0.75rem/0 "Raleway", sans-serif;
+	background-color: transparent;
+	color: #A74600;
+	font: 600 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-solid-reg:hover {
-	background-color: transparent;
-	color: #00bfd8;
+	background-color: #A74600;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
-	padding: 1.175rem 2.425rem 1.175rem 2.425rem;
-	border: 0.125rem solid #00bfd8;
+	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	border: 0.125rem solid #A74600;
 	border-radius: 2rem;
-	background-color: #00bfd8;
-	color: #fff;
-	font: 700 0.900rem "Raleway", sans-serif;
+	background-color: transparent;
+	color: #A74600;
+	font: 600 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-solid-lg:hover {
-	background-color: transparent;
-	color: #00bfd8;
+	background-color: #A74600;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #A74600;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00bfd8;
-	font: 700 0.75rem/0 "Raleway", sans-serif;
+	color: #A74600;
+	font: 600 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #00bfd8;
+	background-color: #A74600;
 	color: #fff;
 	text-decoration: none;
 }
@@ -193,17 +194,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #A74600;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00bfd8;
-	font: 700 0.75rem/0 "Raleway", sans-serif;
+	color: #A74600;
+	font: 600 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #00bfd8;
+	background-color: #A74600;
 	color: #fff;
 	text-decoration: none;
 }
@@ -211,17 +212,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #00bfd8;
+	border: 0.125rem solid #A74600;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #00bfd8;
-	font: 700 0.625rem/0 "Raleway", sans-serif;
+	color: #A74600;
+	font: 600 0.625rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #00bfd8;
+	background-color: #A74600;
 	color: #fff;
 	text-decoration: none;
 }
@@ -369,18 +370,18 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #00bfd8;
+	border: 1px solid #A74600;
 	border-radius: 1.5rem;
-	background-color: #00bfd8;
-	color: #fff;
-	font: 700 0.75rem/1.75rem "Raleway", sans-serif;
+	background-color: transparent;
+	color: #A74600;
+	font: 600 0.75rem/1.75rem "Montserrat", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
 
 .form-control-submit-button:hover {
-	background-color: transparent;
-	color: #00bfd8;
+	background-color: #A74600;
+	color: #ffffff;
 }
 
 /* Form Success And Error Message Formatting */
@@ -804,10 +805,12 @@ input[type='checkbox'] {
 /************************/
 /*     06. Services     */
 /************************/
+
 .cards-1 {
 	padding-top: 4rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
+	background-color: #FFEBE1;
 
 }
 
@@ -961,7 +964,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #00bfd8;
+	color: #A74600;
 }
 /* end of signup Button */
 
@@ -971,7 +974,7 @@ input[type='checkbox'] {
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #00bfd8;
+	color: #A74600;
 	opacity: 1;
 }
 
@@ -1644,7 +1647,7 @@ a:hover.back-to-top {
 	}
 
 	.header h1 {
-		font-size: 3rem;
+		font-size: 2.5rem;
 		line-height: 3.5rem;
 	}
 	/* end of header */
@@ -1865,6 +1868,7 @@ a:hover.back-to-top {
 	.header {
 		background: url('../images/header-background.jpg') center center no-repeat;
 		background-size: cover; 
+		background-color: #FFEDE2;
 	}
 
 	.header .header-content {
@@ -1916,6 +1920,7 @@ a:hover.back-to-top {
 	.lightbox-basic {
 		max-width: 62.5rem;
 		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
+		background-color: #FFEDE2;
 	}
 
 	.lightbox-basic .image-container {
