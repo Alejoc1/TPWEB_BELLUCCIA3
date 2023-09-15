@@ -788,6 +788,7 @@ input[type='checkbox'] {
 	padding-top: 2.25rem;
 	padding-bottom: 2.125rem;
 	text-align: center;
+	background-color: #FFEDE2;
 }
 
 .slider-1 h5 {
@@ -807,7 +808,7 @@ input[type='checkbox'] {
 /************************/
 
 .cards-1 {
-	padding-top: 4rem;
+	padding-top: 7rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
 	background-color: #FFEBE1;
@@ -1273,6 +1274,7 @@ input[type='checkbox'] {
 	padding-bottom: 7rem;
 	background: url('../images/testimonials-background.jpg') center center no-repeat;
 	background-size: cover; 
+	background-color: #FFEDE2;
 }
 
 .slider-2 .image-container {
