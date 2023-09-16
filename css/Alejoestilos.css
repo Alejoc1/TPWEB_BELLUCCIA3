@@ -32,3 +32,29 @@
 	background-color: #FFEDE2;
 }
 
+
+
+/****************************/
+/*     2. Barra de aviso     */
+/****************************/
+
+.contenedor {
+
+
+background-color: #994000;
+padding: 20px;
+margin-top: 70px;
+text-align: center;
+
+}
+
+
+h7 {
+	color: #ffffff;
+	font: 400 2rem "Montserrat", sans-serif;
+}
+
+h8 {
+	color: #ffffff;
+	font: 400 2rem "Montserrat", sans-serif;
+}

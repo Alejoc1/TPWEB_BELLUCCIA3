@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #FFEDE2;
 }
 
 [tabindex="-1"]:focus {
@@ -4557,7 +4557,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #FFECE1;
   background-clip: border-box;
   /*
   border: 1px solid rgba(0, 0, 0, 0.125);
