@@ -760,6 +760,7 @@ input[type='checkbox'] {
 /*********************/
 .header {
 	background-color: #fff;
+	
 }
 
 .header .header-content {
@@ -780,6 +781,12 @@ input[type='checkbox'] {
 
 .header .p-large {
 	margin-bottom: 1.875rem;
+}
+
+.header .img-fluid {
+
+size: 25px;
+
 }
 
 
