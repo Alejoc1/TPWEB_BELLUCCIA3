@@ -53,11 +53,11 @@ html {
 
 body, p {
 	color: #000000; 
-	font: 400 0.875rem/1.375rem "montserrat", sans-serif;
+	font: 400 0.975rem/1.475rem "montserrat", sans-serif;
 }
 
 .p-large {
-	font: 400 1rem/1.5rem "montserrat", sans-serif;
+	font: 400 1.1rem/1.5rem "montserrat", sans-serif;
 }
 
 .p-small {
@@ -66,7 +66,7 @@ body, p {
 }
 
 .p-heading {
-	margin-bottom: 3.875rem;
+	margin-bottom: 6rem;
 }
 
 .li-space-lg li {
@@ -672,7 +672,9 @@ input[type='checkbox'] {
 	color: #00bfd8;
 }
 
+
 /* Dropdown Menu */
+
 .navbar-custom .dropdown:hover > .dropdown-menu {
 	display: block; /* this makes the dropdown menu stay open while hovering it */
 	min-width: auto;
@@ -817,7 +819,7 @@ size: 25px;
 /************************/
 
 .cards-1 {
-	padding-top: 7rem;
+	padding-top: 9rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
 	background-color: #FFEBE1;
@@ -844,7 +846,7 @@ size: 25px;
 	width: 6rem;
 	height: 6rem;
 	margin-right: auto;
-	margin-bottom: 2rem;
+	margin-bottom: -2rem;
 	margin-left: auto;
 }
 
@@ -861,7 +863,7 @@ size: 25px;
 /*     07. Details 1     */
 /*************************/
 .basic-1 {
-	padding-top: 1.625rem;
+	padding-top: 5rem;
 	padding-bottom: 3.75rem;
 }
 
@@ -870,7 +872,7 @@ size: 25px;
 }
 
 .basic-1 h2 {
-	margin-bottom: 1.375rem;
+	margin-bottom: 1rem;
 }
 
 .basic-1 .btn-solid-reg {
@@ -883,7 +885,7 @@ size: 25px;
 /*************************/
 .basic-2 {
 	padding-top: 3.75rem;
-	padding-bottom: 4rem;
+	padding-bottom: 0rem;
 	background-color: #FFE5D1;
 }
 
@@ -892,7 +894,7 @@ size: 25px;
 }
 
 .basic-2 h2 {
-	margin-bottom: 1.375rem;
+	margin-bottom: 1rem;
 }
 
 .basic-2 .list-unstyled .fas {
@@ -900,12 +902,14 @@ size: 25px;
 	line-height: 1.375rem;
 }
 
+/*
 .basic-2 .list-unstyled .media-body {
 	margin-left: 0.625rem;
 }
+*/
 
 .basic-2 .btn-solid-reg {
-	margin-top: 0.625rem;
+	margin-top: 1rem;
 }
 
 
@@ -952,7 +956,7 @@ size: 25px;
 }
 
 .lightbox-basic .list-unstyled .fas {
-	color: #00bfd8;
+	color: #1ee000;
 	line-height: 1.375rem;
 }
 
@@ -1354,8 +1358,8 @@ size: 25px;
 /*     14. About     */
 /*********************/
 .basic-4 {
-	padding-top: 7rem;
-	padding-bottom: 4rem;
+	padding-top: 10rem;
+	padding-bottom: 0rem;
 	text-align: center;
 }
 
@@ -1379,8 +1383,10 @@ size: 25px;
 }
 
 .basic-4 .image-wrapper img {
-	margin: 0;
+	
+	/*margin: 0; */
 	transition: all 0.3s;
+	
 }
 
 .basic-4 .image-wrapper:hover img {
@@ -1669,8 +1675,8 @@ a:hover.back-to-top {
 
 	/* Customers */
 	.slider-1 {
-		padding-top: 3rem;
-		padding-bottom: 2.875rem;
+		padding-top: 7rem;
+		padding-bottom: 4rem;
 	}
 
 	.slider-1 .slider-container {
@@ -1777,13 +1783,13 @@ a:hover.back-to-top {
 
 	.navbar-custom .nav-item .nav-link {
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
-		color: #393939;
-		opacity: 0.8;
+		color: #ffffff;
+		opacity: 0.5;
 	}
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #393939;
+		color: #ffffff;
 		opacity: 1;
 	}
 
@@ -1794,13 +1800,13 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom.top-nav-collapse .nav-item .nav-link {
-		color: #393939;
-		opacity: 1;
+		color: #ffffff;
+		opacity: 0,5;
 	}
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00bfd8;
+		color: #ffffff;
 	}
 
 	.navbar-custom .dropdown-menu {
@@ -1925,7 +1931,7 @@ a:hover.back-to-top {
 	}
 
 	.basic-2 .text-container {
-		margin-top: 3.125rem;
+		margin-top: 3.875rem;
 	}
 	/* end of details 2 */
 
@@ -1945,7 +1951,7 @@ a:hover.back-to-top {
 	}
 	
 	.lightbox-basic h3 {
-		margin-top: 0.5rem;
+		margin-top: 1.6rem;
 	}
 	/* end of details lightboxes */
 
