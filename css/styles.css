@@ -52,16 +52,16 @@ html {
 }
 
 body, p {
-	color: #000000; 
-	font: 400 0.975rem/1.475rem "montserrat", sans-serif;
+	color: #ffffff; 
+	font: 400 0.975rem/1.475rem "lato", sans-serif;
 }
 
 .p-large {
-	font: 400 1.1rem/1.5rem "montserrat", sans-serif;
+	font: 400 1.2rem/1.6rem "lato", sans-serif;
 }
 
 .p-small {
-	font: 400 0.75rem/1.25rem "montserrat", sans-serif;
+	font: 400 0.75rem/1.25rem "lato", sans-serif;
 
 }
 
@@ -78,37 +78,37 @@ body, p {
 }
 
 h1 {
-	color: #000000;
-	font: 400  "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 300 2.25rem/2.75rem "lato", sans-serif;
 }
 
 h2 {
-	color: #000000;
-	font: 400 2.25rem/2.75rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 300 2.25rem/2.75rem "lato", sans-serif;
 }
 
 h3 {
-	color: #000000;
-	font: 400 1.75rem/2rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 300 1.75rem/2rem "lato", sans-serif;
 }
 
 h4 {
-	color: #000000;
-	font: 500 1.375rem/1.875rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 600 1.375rem/1.875rem "lato", sans-serif;
 }
 
 h5 {
-	color: #000000;
-	font: 400 1.325rem/1.825rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 300 1.325rem/1.825rem "lato", sans-serif;
 }
 
 h6 {
-	color: #000000;
-	font: 400 1rem/1.5rem "Montserrat", sans-serif;
+	color: #ffffff;
+	font: 300 1rem/1.5rem "lato", sans-serif;
 }
 
 a {
-	color: #000000;
+	color: #ffffff;
 	text-decoration: underline;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #A74600;
+	color: #FFBCF4;
 }
 
 a.white {
@@ -126,11 +126,11 @@ a.white {
 }
 
 .testimonial-text {
-	font: italic 400 1rem/1.5rem "Montserrat", sans-serif;
+	font: italic 400 1rem/1.5rem "lato", sans-serif;
 }
 
 .testimonial-author {
-	font: 600 1rem/1.5rem "Montserrat", sans-serif;
+	font: 600 1rem/1.5rem "lato", sans-serif;
 }
 
 .turquoise {
@@ -140,55 +140,58 @@ a.white {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #A74600;
+	border: 0.125rem solid #FFBCF4;
 	border-radius: 2rem;
-	background-color: #A74600;
+	background-color: #FFBCF4;
 	
-	font: 600 0.75rem/0 "Montserrat", sans-serif;
-	color: #ffffff;
+	font: 600 0.75rem/0 "lato", sans-serif;
+	color: #000000;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 
 .btn-solid-reg:hover {
-	background-color: #A74600;
-	color: #ffffff;
+	background-color: #FFBCF4;
+	color: #000000;
 	text-decoration: none;
 }
 
 .btn-solid-lg {
+	
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #A74600;
+	margin-top: 0.5rem;
+	border: 0.125rem solid #FFBCF4;
 	border-radius: 2rem;
-	background-color: transparent;
-	color: #A74600;
-	font: 600 0.75rem/0 "Montserrat", sans-serif;
+	background-color: #FFBCF4;
+	color: #000000;
+	font: 700 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-solid-lg:hover {
-	background-color: #A74600;
-	color: #ffffff;
+	font-family: "lato";
+	background-color: #FFBCF4;
+	color: #000000;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #A74600;
+	border: 0.125rem solid #FFBCF4;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #A74600;
-	font: 600 0.75rem/0 "Montserrat", sans-serif;
+	color: #FFBCF4;
+	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #A74600;
+	background-color: #FFBCF4;
 	color: #fff;
 	text-decoration: none;
 }
@@ -196,17 +199,17 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #A74600;
+	border: 0.125rem solid #FFBCF4;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #A74600;
-	font: 600 0.75rem/0 "Montserrat", sans-serif;
+	color: #FFBCF4;
+	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #A74600;
+	background-color: #FFBCF4;
 	color: #fff;
 	text-decoration: none;
 }
@@ -214,17 +217,17 @@ a.white {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.875rem 1.625rem;
-	border: 0.125rem solid #A74600;
+	border: 0.125rem solid #FFBCF4;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #A74600;
-	font: 600 0.625rem/0 "Montserrat", sans-serif;
+	color: #FFBCF4;
+	font: 600 0.625rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #A74600;
+	background-color: #FFBCF4;
 	color: #fff;
 	text-decoration: none;
 }
@@ -248,7 +251,7 @@ a.white {
 	left: 1.375rem;
 	color: #626262;
 	opacity: 1;
-	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+	font: 400 0.875rem/1.375rem "lato", sans-serif;
 	cursor: text;
 	transition: all 0.2s ease;
 }
@@ -281,7 +284,7 @@ a.white {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #626262;
-	font: 400 0.875rem/1.875rem "Raleway", sans-serif;
+	font: 400 0.875rem/1.875rem "lato", sans-serif;
 	transition: all 0.2s;
 	/* webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
 }
@@ -335,7 +338,7 @@ select::-ms-expand {
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #626262;
-	font: 400 0.875rem/1.75rem "Raleway", sans-serif;
+	font: 400 0.875rem/1.75rem "lato", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -353,7 +356,7 @@ select::-ms-expand {
 }
 
 .checkbox {
-	font: 400 0.75rem/1.25rem "Raleway", sans-serif;
+	font: 400 0.75rem/1.25rem "lato", sans-serif;
 }
 
 input[type='checkbox'] {
@@ -376,7 +379,7 @@ input[type='checkbox'] {
 	border-radius: 1.5rem;
 	background-color: transparent;
 	color: #A74600;
-	font: 600 0.75rem/1.75rem "Montserrat", sans-serif;
+	font: 600 0.75rem/1.75rem "lato", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
@@ -396,7 +399,7 @@ input[type='checkbox'] {
 	display: block;
 	margin-bottom: 0;
 	color: #626262;
-	font: 400 1.125rem/1rem "Raleway", sans-serif;
+	font: 400 1.125rem/1rem "lato", sans-serif;
 }
 
 .help-block.with-errors .list-unstyled {
@@ -640,7 +643,7 @@ input[type='checkbox'] {
 .navbar-custom {
 	background-color: #fff;
 	box-shadow: 0 0.0325rem 0.175rem 0 rgba(0, 0, 0, 0.1);
-	font: 600 0.875rem/0.875rem "Raleway", sans-serif;
+	font: 600 0.875rem/0.875rem "lato", sans-serif;
 	transition: all 0.2s;
 }
 
@@ -650,7 +653,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-text {
-	font: 600 2rem/1.5rem "Raleway", sans-serif;
+	font: 600 2rem/1.5rem "lato", sans-serif;
 	color: #393939;
 	text-decoration: none;
 }
@@ -712,7 +715,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .dropdown-item .item-text {
-	font: 600 0.875rem/0.875rem "Raleway", sans-serif;
+	font: 600 0.875rem/0.875rem "lato", sans-serif;
 }
 
 .navbar-custom .dropdown-item:hover .item-text {
@@ -799,7 +802,7 @@ size: 25px;
 	padding-top: 2.25rem;
 	padding-bottom: 2.125rem;
 	text-align: center;
-	background-color: #FFEDE2;
+	background-color: #353254;
 }
 
 .slider-1 h5 {
@@ -810,7 +813,7 @@ size: 25px;
 	padding-top: 2.75rem;
 	padding-bottom: 2.75rem;
 	border-radius: 0.5rem;
-	background-color: #FFEDE2;
+	background-color: #353254;
 }
 
 
@@ -822,7 +825,7 @@ size: 25px;
 	padding-top: 9rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
-	background-color: #FFEBE1;
+	background-color: #353254;
 
 }
 
@@ -863,6 +866,7 @@ size: 25px;
 /*     07. Details 1     */
 /*************************/
 .basic-1 {
+	background-color: #353254;
 	padding-top: 5rem;
 	padding-bottom: 3.75rem;
 }
@@ -886,7 +890,7 @@ size: 25px;
 .basic-2 {
 	padding-top: 3.75rem;
 	padding-bottom: 0rem;
-	background-color: #FFE5D1;
+	background-color: #162F3D;
 }
 
 .basic-2 .image-container {
@@ -1012,6 +1016,7 @@ size: 25px;
 /*     10. Pricing     */
 /***********************/
 .cards-2 {
+	background-color: #353254;
 	padding-top: 3rem;
 	padding-bottom: 2.75rem;
 	text-align: center;
@@ -1320,13 +1325,13 @@ size: 25px;
 
 .slider-2 .swiper-button-prev {
 	left: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23626262'%2F%3E%3C%2Fsvg%3E");
+	background-image: url('../images/flecha.png');
 	background-size: 1.125rem 1.75rem;
 }
 
 .slider-2 .swiper-button-next {
 	right: -0.5rem;
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23626262'%2F%3E%3C%2Fsvg%3E");
+	background-image: url('../images/flecha\ 2.png');
 	background-size: 1.125rem 1.75rem;
 }
 
@@ -1397,6 +1402,7 @@ size: 25px;
 /* end of hover animation */
 
 .basic-4 .team-member .p-large {
+	margin-top: 1.2rem;
 	margin-bottom: 0.25rem;
 	font-size: 1.125rem;
 }
@@ -1412,6 +1418,7 @@ size: 25px;
 	font-size: 0.875rem;
 }
 
+/*
 .basic-4 .fa-stack-2x {
 	color: #00bfd8;
 	transition: all 0.2s ease;
@@ -1429,6 +1436,7 @@ size: 25px;
 .basic-4 .fa-stack:hover .fa-stack-1x {
 	color: #fff;
 }
+*/
 
 
 /***********************/
@@ -1563,13 +1571,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #A74600 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #FFBCF4 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #A74600; 
+	background-color: #FFBCF4; 
 }
 
 
@@ -1668,7 +1676,7 @@ a:hover.back-to-top {
 
 	.header h1 {
 		font-size: 2.5rem;
-		line-height: 3rem;
+		line-height: 2.7rem;
 	}
 	/* end of header */
 
@@ -1782,6 +1790,7 @@ a:hover.back-to-top {
 	}
 
 	.navbar-custom .nav-item .nav-link {
+		font: 300 "lato";
 		padding: 0.25rem 0.75rem 0.25rem 0.75rem;
 		color: #ffffff;
 		opacity: 0.5;
@@ -1789,6 +1798,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
+		font-family: "lato";
 		color: #ffffff;
 		opacity: 1;
 	}
@@ -1898,7 +1908,7 @@ a:hover.back-to-top {
 
 	.header .text-container {
 		margin-top: 3rem;
-		margin-bottom: 0;
+		margin-bottom: 9rem;
 	}
 	/* end of header */
 
@@ -2065,8 +2075,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header .header-content {
-		background-color: #FFEBE1;
-		padding-top: 12.5rem;
+		background-color: #1B163D;
+		padding-top: 15rem;
 	}
 
 	.header .text-container {
