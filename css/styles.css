@@ -808,6 +808,7 @@ size: 25px;
 }
 
 .slider-1 h5 {
+	margin-top: -2rem;
 	margin-bottom: 0.75rem;
 }
 
@@ -870,7 +871,7 @@ size: 25px;
 /*************************/
 .basic-1 {
 	background-color: #353254;
-	padding-top: 5rem;
+	padding-top: rem;
 	padding-bottom: 5rem;
 }
 
@@ -1461,6 +1462,7 @@ size: 25px;
 }
 */
 .form-2 h2 {
+	margin-top: 6rem;
 	margin-bottom: 1rem;
 	text-align: center;
 }
