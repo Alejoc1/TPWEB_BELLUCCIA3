@@ -667,14 +667,14 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #393939;
+	color: #656565;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00bfd8;
+	color: #ffffff;
 }
 
 
@@ -740,7 +740,7 @@ input[type='checkbox'] {
 
 .navbar-custom .navbar-toggler {
 	border: none;
-	color: #393939;
+	color: #ffffff;
 	font-size: 2rem;
 }
 
