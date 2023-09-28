@@ -5,7 +5,7 @@
 h2 {
 	color: #000000;
 	font: 300 2rem/2.75rem "lato", sans-serif;
-    margin-top: 12rem;
+    margin-top: 6rem;
 }
 
 
@@ -37,14 +37,52 @@ h2 {
     margin-top: 0rem;
 }
 
-.basic-1 {
+.basic-1 { 
 
 	background-image: url("images/fondo\ detalleeeee.jpg");
     background-repeat: no-repeat;
-	padding-top: 4rem;
+	padding-top: 8rem;
 	margin-top: 2rem;
 	padding-bottom: 5rem;
 }
+
+.basic-1 .text-container {
+
+margin-top: 2rem;
+margin-left: 4rem;
+
+}
+
+.basic-1 .img-fluid {
+
+margin-top: 0rem;
+
+}
+	  
+
+
+
+/* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-1 .img-fluid {
+	  margin-top: -25px;/* Ruta de la imagen de fondo para dispositivos móviles */
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	}
+  }
+
+  /* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-1  .text-container {
+
+	  margin-top: -3.2rem;/* Ruta de la imagen de fondo para dispositivos móviles */
+	  margin-left: 0.7rem;
+	  text-align: left;
+	  color: #000000;
+		  line-height: 0.7rem;
+	  
+	}
+  }
 
 .cards-2 {
 
@@ -77,3 +115,39 @@ h2 {
 }
 
 
+.basic-2 {
+	padding-top: 2.4rem;
+	padding-bottom: 6rem;
+	background-image: url("images/fondo\ primera\ seccion\ detalle.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+/* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-2 {
+	  background-image: url("images/fondo\ mobile\ detalle\ seccion.jpg");/* Ruta de la imagen de fondo para dispositivos móviles */
+	padding-top: 10rem;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	}
+  }
+
+    /* Media query para cambiar el interlineado solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-2 .text-container {
+		text-align: left;
+		margin-left: 1rem;
+	  line-height: 0.8rem; /* Interlineado reducido para dispositivos móviles */
+	}
+  }
+
+  
+
+  @media screen and (max-width: 768px) {
+	.basic-2 .img-fluid {
+	  margin-top: -25px;/* Ruta de la imagen de fondo para dispositivos móviles */
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	}
+  }
