@@ -49,6 +49,8 @@ html {
     width: 100%;
 	height: 100%;
 	
+
+	
 }
 
 body, p {
@@ -66,7 +68,7 @@ body, p {
 }
 
 .p-heading {
-	margin-bottom: 6rem;
+	margin-bottom: 4rem;
 }
 
 .li-space-lg li {
@@ -767,13 +769,13 @@ input[type='checkbox'] {
 /*********************/
 .header {
 	background-image: url('../images/HEADER\ PHONE.jpg');
-	margin-top: -4rem;
+	margin-top: -5rem;
    background-repeat: no-repeat;
 	
 }
 
 .header .header-content {
-	padding-top: 30rem;
+	padding-top: 27rem;
 	padding-bottom: 4rem;
 	text-align: center;
 }
@@ -876,7 +878,7 @@ size: 25px;
 .basic-1 {
 
 	background-color: #FFEBF9;
-	padding-top: 0rem;
+	padding-top: 4rem;
 	padding-bottom: 5rem;
 }
 
@@ -1036,8 +1038,8 @@ color: #ffffff;
 .cards-2 {
 	background-image: url('../images/Fondo\ precios.jpg');
 	background-color: #ffffff;
-	padding-top: 3rem;
-	padding-bottom: 2.75rem;
+	padding-top: 4rem;
+	padding-bottom: 8rem;
 	text-align: center;
 }
 
@@ -1046,7 +1048,15 @@ color: #ffffff;
 .cards-2 h2 {
 	color: #ffffff;
 	margin-bottom: 1rem;
+
 }
+
+.cards-2 .p-heading {
+
+ 
+	color: #ffffff;
+}
+
 
 
 .cards-2 .card {
@@ -1055,22 +1065,25 @@ color: #ffffff;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: auto;
+	
 	/*
 	border: 1px solid #A74600;
 	*/
 	border-radius: 2rem;
-	/* vertical-align: center; */
+	 
 }
 
 .cards-2 .card .card-body {
-	color: #ffffff;
+	margin-bottom: 4rem;
+	margin-top: 0rem;
+	color: #000000;
 	padding: 1.2rem
 }
 
 .cards-2 .card .card-title {
 	margin-top: 0.8rem;
 	margin-bottom: 0.250rem;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.42rem;
 	line-height: 2.25rem;
@@ -1096,7 +1109,7 @@ color: #ffffff;
 }
 
 .cards-2 .card .value {
-	color: #ffffff;
+	color: #000000;
 	font-weight: 500;
 	font-size: 3.6rem;
 	line-height: 4rem;
@@ -1105,7 +1118,7 @@ color: #ffffff;
 
 .cards-2 .card .currency {
 	margin-right: 0.375rem;
-	color: #ffffff;
+	color: #000000;
 	font-size: 1.5rem;
 	vertical-align: 56%;
 }
@@ -1393,8 +1406,8 @@ color: #ffffff;
 /*     14. About     */
 /*********************/
 .basic-4 {
-	padding-top: 10rem;
-	padding-bottom: 0rem;
+	padding-top: 4rem;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 
@@ -1923,6 +1936,7 @@ a:hover.back-to-top {
 	.p-heading {
 		width: 65%;
 	}
+	
 	/* end of general styles */
 
 
@@ -2003,7 +2017,7 @@ a:hover.back-to-top {
 
 	/* Pricing */
 	.cards-2 .card {
-		display: -webkit-box;
+		display: inline-block;
 		width: 17.125rem;
 		max-width: 100%;
 		margin-right: 1rem;
@@ -2112,7 +2126,7 @@ a:hover.back-to-top {
 	.header .header-content {
 		background-image: url('../images/HEADER.jpg');
 		background-repeat: no-repeat;
-		padding-top: 14rem;
+		padding-top: 16rem;
 	}
 
 	.header .text-container {

@@ -49,6 +49,11 @@ margin-top: 10px;
 */
 text-align: center;
 
+
+
+
+
+
 }
 
 
@@ -65,4 +70,14 @@ h8 {
 h9 {
 	color: #ffffff;
 	font: 300 2.25rem "lato", sans-serif;
+
+}
+
+
+
+
+.cards-2 .p-heading .p-large {
+
+ 
+	color: #ffffff;
 }
