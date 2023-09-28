@@ -669,7 +669,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link {
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
-	color: #656565;
+	color: #d09595;
 	text-decoration: none;
 	transition: all 0.2s ease;
 }
@@ -776,7 +776,7 @@ input[type='checkbox'] {
 
 .header .header-content {
 	padding-top: 27rem;
-	padding-bottom: 4rem;
+	padding-bottom: 2rem;
 	text-align: center;
 }
 
@@ -830,10 +830,11 @@ size: 25px;
 /************************/
 
 .cards-1 {
-	padding-top: 9rem;
+	padding-top: 6rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
 	background-image:  url('../images/fondo\ detalles.jpg');
+	background-repeat: no-repeat;
 	background-color: #ffffff;
 
 }
@@ -846,7 +847,7 @@ size: 25px;
 .cards-1 .card {
 	max-width: 21rem;
 	margin-right: auto;
-	margin-bottom: 4.5rem;
+	margin-bottom: 0rem;
 	margin-left: auto;
 	padding: 3.25rem 2rem 2rem 2rem;
 	/*
