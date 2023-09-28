@@ -914,6 +914,7 @@ size: 25px;
 	padding-bottom: 6rem;
 	background-image: url('../images/background\ somos.jpg');
 	background-repeat: no-repeat;
+	position: relative;
 	
 }
 /* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
