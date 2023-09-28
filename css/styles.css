@@ -888,9 +888,10 @@ size: 25px;
 /*************************/
 .basic-1 {
 
-	background-color: #FFEBF9;
+	background-color: #ffffff;
 	padding-top: 4rem;
 	padding-bottom: 5rem;
+	
 }
 
 .basic-1 .text-container {
@@ -1470,6 +1471,7 @@ color: #ffffff;
 /*     14. About     */
 /*********************/
 .basic-4 {
+	background-color: #FFEAF5;
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 	text-align: center;

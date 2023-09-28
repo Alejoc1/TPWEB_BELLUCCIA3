@@ -43,7 +43,7 @@ h2 {
     background-repeat: no-repeat;
 	padding-top: 8rem;
 	margin-top: 2rem;
-	padding-bottom: 5rem;
+	padding-bottom: 8rem;
 }
 
 .basic-1 .text-container {
@@ -65,7 +65,7 @@ margin-top: 0rem;
 /* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
 @media screen and (max-width: 768px) {
 	.basic-1 .img-fluid {
-	  margin-top: -25px;/* Ruta de la imagen de fondo para dispositivos móviles */
+	  margin-top: 15px;/* Ruta de la imagen de fondo para dispositivos móviles */
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	}
@@ -92,14 +92,18 @@ margin-top: 0rem;
 }
 
 
+h10 {
+	color: #000000;
+	font: 300 2.25rem "lato", sans-serif;
 
+}
 
 
 
 .basic-2 .text-container {
 
 	text-align: left;
-	color: #ffffff;
+	color: #000000;
 		line-height: 0.7rem;
 	}
 	
@@ -129,6 +133,8 @@ margin-top: 0rem;
 	.basic-2 {
 	  background-image: url("images/fondo\ mobile\ detalle\ seccion.jpg");/* Ruta de la imagen de fondo para dispositivos móviles */
 	padding-top: 10rem;
+	padding: 2rem;
+	padding-top: 20rem;
 	  background-size: cover;
 	  background-repeat: no-repeat;
 	}
@@ -137,12 +143,15 @@ margin-top: 0rem;
     /* Media query para cambiar el interlineado solo en dispositivos móviles */
 @media screen and (max-width: 768px) {
 	.basic-2 .text-container {
+		
 		text-align: left;
-		margin-left: 1rem;
+		margin-left: -0.5rem;
 	  line-height: 0.8rem; /* Interlineado reducido para dispositivos móviles */
+	  margin-bottom: 2rem;
 	}
   }
 
+  
   
 
   @media screen and (max-width: 768px) {
@@ -152,3 +161,14 @@ margin-top: 0rem;
 	  background-repeat: no-repeat;
 	}
   }
+
+
+  
+  @media screen and (max-width: 768px) {
+  .basic-1 {
+
+	background-color: #ffffff;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
+}
+}
