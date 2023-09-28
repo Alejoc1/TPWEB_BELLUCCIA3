@@ -42,5 +42,38 @@ h2 {
 	background-image: url("images/fondo\ detalleeeee.jpg");
     background-repeat: no-repeat;
 	padding-top: 4rem;
+	margin-top: 2rem;
 	padding-bottom: 5rem;
 }
+
+.cards-2 {
+
+	padding-top: 0rem;
+	padding-bottom: 8rem;
+	text-align: center;
+}
+
+
+
+
+
+
+.basic-2 .text-container {
+
+	text-align: left;
+	color: #ffffff;
+		line-height: 0.7rem;
+	}
+	
+		/* Details 2 */
+		.basic-2 .text-container {
+			margin-top: 5.375rem;
+			margin-right: 0rem;
+			margin-left: 12rem;
+		}
+
+		.basic-2 h2 {
+	margin-top: 3rem;
+}
+
+

@@ -94,6 +94,13 @@ h3 {
 	font: 300 1.75rem/2rem "lato", sans-serif;
 }
 
+/* Media query para cambiar el interlineado solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.lightbox-basic h3 {
+	  margin-top: -2rem; /* Interlineado reducido para dispositivos móviles */
+	}
+  }
+
 h4 {
 	color: #000000;
 	font: 600 1.375rem/1.875rem "lato", sans-serif;
@@ -102,7 +109,10 @@ h4 {
 h5 {
 	color: #000000;
 	font: 300 1.325rem/1.825rem "lato", sans-serif;
+	margin-top: -0.3rem;
 }
+
+
 
 h6 {
 	color: #000000;
@@ -813,7 +823,7 @@ size: 25px;
 }
 
 .slider-1 h5 {
-	margin-top: -2rem;
+	margin-top: 0rem;
 	margin-bottom: 0.75rem;
 }
 
@@ -903,9 +913,44 @@ size: 25px;
 	padding-top: 2.4rem;
 	padding-bottom: 6rem;
 	background-image: url('../images/background\ somos.jpg');
+	background-repeat: no-repeat;
 	
 }
+/* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-2 {
+	  background-image: url('../images/fondo\ mobile\ pagina\ comun.jpg'); /* Ruta de la imagen de fondo para dispositivos móviles */
+	padding-top: 22rem;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	}
+  }
 
+    /* Media query para cambiar el interlineado solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-2 .text-container {
+		
+		margin-left: 1rem;
+	  line-height: 0.8rem; /* Interlineado reducido para dispositivos móviles */
+	}
+  }
+
+  @media screen and (max-width: 768px) {
+	.cards-2 .text-container {
+		
+		
+	  line-height: 0.8rem; /* Interlineado reducido para dispositivos móviles */
+	}
+  }
+
+  /* Media query para cambiar el interlineado solo en dispositivos móviles */
+@media screen and (max-width: 768px) {
+	.basic-1 .text-container {
+		margin-top: -4rem;
+		margin-left: 1rem;
+	  line-height: 0.8rem; /* Interlineado reducido para dispositivos móviles */
+	}
+  }
 .basic-2 .text-container {
 
 color: #ffffff;
