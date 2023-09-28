@@ -1471,7 +1471,8 @@ color: #ffffff;
 /*     14. About     */
 /*********************/
 .basic-4 {
-	background-color: #FFEAF5;
+	background-color: #FFEEF7;
+	background-repeat: no-repeat;
 	padding-top: 4rem;
 	padding-bottom: 2rem;
 	text-align: center;
