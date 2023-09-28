@@ -4,6 +4,43 @@
 
 h2 {
 	color: #000000;
-	font: 300 2.25rem/2.75rem "lato", sans-serif;
+	font: 300 2rem/2.75rem "lato", sans-serif;
     margin-top: 12rem;
+}
+
+
+.cards-1 {
+	padding-top: 6rem;
+	padding-bottom: 1.625rem;
+	text-align: center;
+    background-color: #ffc8c8;
+    
+	background-image:  url('../images/fondo\ detalles.jpg'); 
+	background-repeat: no-repeat;
+
+
+}
+
+.basic-3 {
+	padding-top: 6.875rem;
+	padding-bottom: 6.125rem;
+    background-image: url("images/respaldo\ pablo.jpg");
+
+    background-repeat: no-repeat;
+    background-color: #FFEAF5;
+ 
+}
+
+.basic-3 h2 {
+	margin-bottom: 3rem;
+	text-align: center;
+    margin-top: 0rem;
+}
+
+.basic-1 {
+
+	background-image: url("images/fondo\ detalleeeee.jpg");
+    background-repeat: no-repeat;
+	padding-top: 4rem;
+	padding-bottom: 5rem;
 }
