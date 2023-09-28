@@ -154,9 +154,9 @@ a.white {
 	
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	margin-bottom: -0.3rem;
-	border: 0.125rem solid #791414;
+	border: 0.125rem solid #9A2424;
 	border-radius: 2rem;
-	background-color: #791414;
+	background-color: #9A2424;
     
 	font: 600 0.75rem/0 "lato", sans-serif;
 	color: #ffffff;
@@ -166,7 +166,7 @@ a.white {
 
 
 .btn-solid-reg:hover {
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -176,9 +176,9 @@ a.white {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	margin-top: 0.5rem;
-	border: 0.125rem solid #791414;
+	border: 0.125rem solid #9A2424;
 	border-radius: 2rem;
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 	font: 700 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
@@ -187,7 +187,7 @@ a.white {
 
 .btn-solid-lg:hover {
 	font-family: "lato";
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -195,17 +195,17 @@ a.white {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #791414;
+	border: 0.125rem solid #9A2424;
 	border-radius: 2rem;
-	background-color: #791414;
-	color: #791414;
+	background-color: #9A2424;
+	color: #9A2424;
 	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -213,10 +213,10 @@ a.white {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #791414;
+	border: 0.125rem solid #9A2424;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #791414;
+	color: #9A2424;
 	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -389,9 +389,9 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #791414;
+	border: 1px solid #9A2424;
 	border-radius: 1.5rem;
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 	font: 600 0.75rem/1.75rem "lato", sans-serif;
 	cursor: pointer;
@@ -399,7 +399,7 @@ input[type='checkbox'] {
 }
 
 .form-control-submit-button:hover {
-	background-color: #791414;
+	background-color: #9A2424;
 	color: #ffffff;
 }
 
@@ -841,7 +841,7 @@ size: 25px;
 
 .cards-1 {
 	padding-top: 6rem;
-	padding-bottom: 1.625rem;
+	padding-bottom: 4rem;
 	text-align: center;
 	background-image:  url('../images/fondo\ detalles.jpg');
 	background-repeat: no-repeat;
@@ -1018,7 +1018,7 @@ color: #ffffff;
 	margin-bottom: 1.25rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #791414;
+	background-color: #9A2424;
 	text-align: left;
 }
 
@@ -1045,12 +1045,12 @@ color: #ffffff;
 	position: relative;
 	width: auto;
 	height: auto;
-	color: #791414;
+	color: #9A2424;
 	opacity: 1;
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #791414;
+	color: #9A2424;
 }
 /* end of signup Button */
 
@@ -1121,11 +1121,28 @@ color: #ffffff;
 }
 
 .cards-2 .card .card-body {
-	margin-bottom: 4rem;
+	margin-bottom: 0rem;
 	margin-top: 0rem;
 	color: #000000;
 	padding: 1.2rem
 }
+
+
+@media screen and (max-width: 768px) {
+
+
+.cards-2 .card .card-body {
+
+	margin-bottom: 4rem;
+
+
+}
+
+
+
+
+}
+
 
 .cards-2 .card .card-title {
 	margin-top: 0.8rem;
