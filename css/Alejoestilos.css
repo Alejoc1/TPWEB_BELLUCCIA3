@@ -1,5 +1,5 @@
 .navbar-custom {
-	background-color: #000000;
+	background-color: #923046;
     margin-top: -20px;
 	font: 400 0.875rem/0.875rem "lato", sans-serif;
 	transition: all 0.2s;
@@ -8,7 +8,7 @@
 .navbar-custom.top-nav-collapse {
     margin-top: -20px;
     padding: 0.5rem 1.5rem 0.5rem 2rem;
-    background-color: #000000;
+    background-color: #923046;
     background-position: 0px;
 }
 
@@ -29,7 +29,7 @@
 	padding-bottom: 10rem;
 	background-size: cover; 
 	background-image: url('../images/fondo\ contacto.jpg');
-	background-color: #232042;
+	background-color: #ffffff;
 
 }
 
@@ -42,7 +42,7 @@
 .contenedor {
 
 
-background-color: #162F3D;
+background-color: #ffffff;
 padding: 20px;
 /*
 margin-top: 10px;
@@ -60,4 +60,9 @@ h7 {
 h8 {
 	color: #ffffff;
 	font: 300 1.5rem "lato", sans-serif;
+}
+
+h9 {
+	color: #ffffff;
+	font: 300 2.25rem "lato", sans-serif;
 }

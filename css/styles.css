@@ -52,7 +52,7 @@ html {
 }
 
 body, p {
-	color: #ffffff; 
+	color: #000000; 
 	font: 400 1.1rem/1.6rem "lato", sans-serif;
 }
 
@@ -78,32 +78,32 @@ body, p {
 }
 
 h1 {
-	color: #ffffff;
+	color: #000000;
 	font: 300 2.25rem/2.75rem "lato", sans-serif;
 }
 
 h2 {
-	color: #ffffff;
+	color: #000000;
 	font: 300 2.25rem/2.75rem "lato", sans-serif;
 }
 
 h3 {
-	color: #ffffff;
+	color: #000000;
 	font: 300 1.75rem/2rem "lato", sans-serif;
 }
 
 h4 {
-	color: #ffffff;
+	color: #000000;
 	font: 600 1.375rem/1.875rem "lato", sans-serif;
 }
 
 h5 {
-	color: #ffffff;
+	color: #000000;
 	font: 300 1.325rem/1.825rem "lato", sans-serif;
 }
 
 h6 {
-	color: #ffffff;
+	color: #000000;
 	font: 300 1rem/1.5rem "lato", sans-serif;
 }
 
@@ -118,7 +118,7 @@ a:hover {
 }
 
 a.turquoise {
-	color: #FFBCF4;
+	color: #791414;
 }
 
 a.white {
@@ -142,20 +142,20 @@ a.white {
 	
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	margin-bottom: -0.3rem;
-	border: 0.125rem solid #FFBCF4;
+	border: 0.125rem solid #791414;
 	border-radius: 2rem;
-	background-color: #FFBCF4;
+	background-color: #791414;
     
 	font: 600 0.75rem/0 "lato", sans-serif;
-	color: #000000;
+	color: #ffffff;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 
 .btn-solid-reg:hover {
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -164,10 +164,10 @@ a.white {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
 	margin-top: 0.5rem;
-	border: 0.125rem solid #FFBCF4;
+	border: 0.125rem solid #791414;
 	border-radius: 2rem;
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 	font: 700 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -175,36 +175,36 @@ a.white {
 
 .btn-solid-lg:hover {
 	font-family: "lato";
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #FFBCF4;
+	border: 0.125rem solid #791414;
 	border-radius: 2rem;
-	background-color: #FFBCF4;
-	color: #FFBCF4;
+	background-color: #791414;
+	color: #791414;
 	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 	text-decoration: none;
 }
 
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #FFBCF4;
+	border: 0.125rem solid #791414;
 	border-radius: 2rem;
 	background-color: transparent;
-	color: #FFBCF4;
+	color: #791414;
 	font: 600 0.75rem/0 "lato", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
@@ -282,7 +282,7 @@ a.white {
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 	border-radius: 0.25rem;
 	background-color: #ffffff;
 	color: #626262;
@@ -336,7 +336,7 @@ select::-ms-expand {
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 	border-radius: 0.25rem;
 	background-color: #ffffff;
 	color: #626262;
@@ -377,18 +377,18 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: 100%;
 	height: 3.125rem;
-	border: 1px solid #FFBCF4;
+	border: 1px solid #791414;
 	border-radius: 1.5rem;
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 	font: 600 0.75rem/1.75rem "lato", sans-serif;
 	cursor: pointer;
 	transition: all 0.2s;
 }
 
 .form-control-submit-button:hover {
-	background-color: #FFBCF4;
-	color: #000000;
+	background-color: #791414;
+	color: #ffffff;
 }
 
 /* Form Success And Error Message Formatting */
@@ -766,12 +766,14 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #fff;
+	background-image: url('../images/HEADER\ PHONE.jpg');
+	margin-top: -4rem;
+   background-repeat: no-repeat;
 	
 }
 
 .header .header-content {
-	padding-top: 8rem;
+	padding-top: 30rem;
 	padding-bottom: 4rem;
 	text-align: center;
 }
@@ -781,9 +783,10 @@ input[type='checkbox'] {
 }
 
 .header h1 {
+	margin-top: 2rem;
 	margin-bottom: 1.125rem;
-	font-size: 4.5rem;
-	line-height: 3.125rem;
+	font-size: 2.25rem;
+	line-height: 2.5rem;
 }
 
 .header .p-large {
@@ -804,7 +807,7 @@ size: 25px;
 	padding-top: 2.25rem;
 	padding-bottom: 2.125rem;
 	text-align: center;
-	background-color: #353254;
+	background-color: #ffffff;
 }
 
 .slider-1 h5 {
@@ -816,7 +819,7 @@ size: 25px;
 	padding-top: 2.75rem;
 	padding-bottom: 2.75rem;
 	border-radius: 0.5rem;
-	background-color: #353254;
+	background-color: transparent;
 }
 
 
@@ -828,7 +831,8 @@ size: 25px;
 	padding-top: 9rem;
 	padding-bottom: 1.625rem;
 	text-align: center;
-	background-color: #353254;
+	background-image:  url('../images/fondo\ detalles.jpg');
+	background-color: #ffffff;
 
 }
 
@@ -870,8 +874,9 @@ size: 25px;
 /*     07. Details 1     */
 /*************************/
 .basic-1 {
-	background-color: #353254;
-	padding-top: rem;
+
+	background-color: #FFEBF9;
+	padding-top: 0rem;
 	padding-bottom: 5rem;
 }
 
@@ -892,10 +897,19 @@ size: 25px;
 /*     08. Details 2     */
 /*************************/
 .basic-2 {
-	padding-top: 5rem;
+	padding-top: 2.4rem;
 	padding-bottom: 6rem;
-	background-color: #162F3D;
+	background-image: url('../images/background\ somos.jpg');
+	
 }
+
+.basic-2 .text-container {
+
+color: #ffffff;
+	line-height: 0.7rem;
+}
+
+
 
 .basic-2 .image-container {
 	margin-bottom: 4rem;
@@ -955,7 +969,7 @@ size: 25px;
 	margin-bottom: 1.25rem;
 	margin-left: 0;
 	border: 0;
-	background-color: #FFBCF4;
+	background-color: #791414;
 	text-align: left;
 }
 
@@ -982,12 +996,12 @@ size: 25px;
 	position: relative;
 	width: auto;
 	height: auto;
-	color: #FFBCF4;
+	color: #791414;
 	opacity: 1;
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-	color: #FFBCF4;
+	color: #791414;
 }
 /* end of signup Button */
 
@@ -997,12 +1011,12 @@ size: 25px;
 	width: auto;
 	height: auto;
 	margin-left: 0.375rem;
-	color: #000000;
+	color: #ffffff;
 	opacity: 1;
 }
 
 .lightbox-basic a.mfp-close.as-button:hover {
-	color: #000000;
+	color: #ffffff;
 }
 /* end of back button */
 
@@ -1021,15 +1035,19 @@ size: 25px;
 /***********************/
 .cards-2 {
 	background-image: url('../images/Fondo\ precios.jpg');
-	background-color: #353254;
+	background-color: #ffffff;
 	padding-top: 3rem;
 	padding-bottom: 2.75rem;
 	text-align: center;
 }
 
+
+
 .cards-2 h2 {
+	color: #ffffff;
 	margin-bottom: 1rem;
 }
+
 
 .cards-2 .card {
 	display: block;
@@ -1045,6 +1063,7 @@ size: 25px;
 }
 
 .cards-2 .card .card-body {
+	color: #ffffff;
 	padding: 1.2rem
 }
 
@@ -1584,13 +1603,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #FFBCF4 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #923046 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #FFBCF4; 
+	background-color: #923046; 
 }
 
 
@@ -1965,7 +1984,7 @@ a:hover.back-to-top {
 	.lightbox-basic {
 		max-width: 62.5rem;
 		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
-		background-color: #162F3D;
+		background-color: #ffffff;
 	}
 
 	.lightbox-basic .image-container {
@@ -2092,7 +2111,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header .header-content {
 		background-image: url('../images/HEADER.jpg');
-		background-color: #1B163D;
+		background-repeat: no-repeat;
 		padding-top: 14rem;
 	}
 
@@ -2144,7 +2163,7 @@ a:hover.back-to-top {
 	.basic-2 .text-container {
 		margin-top: 5.375rem;
 		margin-right: 1rem;
-		margin-left: 4rem;
+		margin-left: 13rem;
 	}
 	/* end of details 2 */
 

@@ -60,7 +60,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #353254;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus {
@@ -74,7 +74,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 4rem;
+  margin-top: 0rem;
   margin-bottom: 0.5rem;
 }
 
@@ -440,7 +440,7 @@ mark,
 }
 
 .list-unstyled {
-  padding-left: 1.5rem;
+  padding-left: 0rem;
   list-style: none;
 }
 
