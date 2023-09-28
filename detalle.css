@@ -59,8 +59,14 @@ margin-top: 0rem;
 
 }
 	  
+@media screen and (max-width: 768px) {
+.cards-1 {
+	padding: 5rem;
+	background-color: #FFD9D9;
+	background-repeat: no-repeat;
+}
 
-
+}
 
 /* Media query para aplicar el fondo de imagen solo en dispositivos móviles */
 @media screen and (max-width: 768px) {
